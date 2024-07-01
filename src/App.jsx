@@ -194,7 +194,7 @@ function App() {
                 <a href="https://github.com/DeeSzubert/NC-News-Project">
                   <div className="portfolio_img">
                     <img
-                      src="images/NCnews_sc.png"
+                      src="/images/NCnews_sc.png"
                       className="portfolio_img"
                       alt=""
                     />
@@ -276,7 +276,7 @@ function App() {
                   href="https://github.com/DeeSzubert"
                   className="contact_link"
                 >
-                  <img src="src/assets/images/github.png" alt="" />
+                  <img src="images/github.png" alt="" />
                   <p>Github</p>
                 </a>
               </li>
