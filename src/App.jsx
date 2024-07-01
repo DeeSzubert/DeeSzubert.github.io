@@ -120,10 +120,7 @@ function App() {
                 </a>
               </li>
               <li>
-                <a
-                  href="src/assets/document/CV_Dorota_Szubert.pdf"
-                  target="blank"
-                >
+                <a href="/document/CV_Dorota_Szubert.pdf" target="blank">
                   view cv
                 </a>
               </li>
