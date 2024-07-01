@@ -276,7 +276,7 @@ function App() {
                   href="https://github.com/DeeSzubert"
                   className="contact_link"
                 >
-                  <img src="images/github.png" alt="" />
+                  <img src="./images/github.png" alt="" />
                   <p>Github</p>
                 </a>
               </li>
