@@ -45,7 +45,7 @@ function App() {
             </div>
             <a
               className="cv"
-              href="src/assets/document/CV_Dorota_Szubert.pdf"
+              href="/document/CV_Dorota_Szubert.pdf"
               target="blank"
             >
               {" "}
@@ -83,7 +83,7 @@ function App() {
               </a>
               <a
                 className="cv"
-                href="src/assets/document/CV_Dorota_Szubert.pdf"
+                href="/document/CV_Dorota_Szubert.pdf"
                 target="blank"
               >
                 {" "}
@@ -167,7 +167,7 @@ function App() {
               <section className="portfolio_item">
                 <a href="https://nc-news-fe-be-project.netlify.app/">
                   <div className="portfolio_img">
-                    <img src="/images/images/NCnews_sc.png" alt="" />
+                    <img src="/images/NCnews_sc.png" alt="" />
                   </div>
                   <section className="portfolio_details">
                     <h1>NC news- front end project</h1>
