@@ -167,7 +167,7 @@ function App() {
               <section className="portfolio_item">
                 <a href="https://nc-news-fe-be-project.netlify.app/">
                   <div className="portfolio_img">
-                    <img src="../src/assets/images/NCnews_sc.png" alt="" />
+                    <img src="/src/assets/images/NCnews_sc.png" alt="" />
                   </div>
                   <section className="portfolio_details">
                     <h1>NC news- front end project</h1>
