@@ -194,7 +194,7 @@ function App() {
                 <a href="https://github.com/DeeSzubert/NC-News-Project">
                   <div className="portfolio_img">
                     <img
-                      src="src/assets/images/NCnews_sc.png"
+                      src="images/NCnews_sc.png"
                       className="portfolio_img"
                       alt=""
                     />
