@@ -167,7 +167,7 @@ function App() {
               <section className="portfolio_item">
                 <a href="https://nc-news-fe-be-project.netlify.app/">
                   <div className="portfolio_img">
-                    <img src="/src/assets/images/NCnews_sc.png" alt="" />
+                    <img src="/images/images/NCnews_sc.png" alt="" />
                   </div>
                   <section className="portfolio_details">
                     <h1>NC news- front end project</h1>
@@ -225,7 +225,7 @@ function App() {
               <section className="portfolio_item">
                 <a href="https://skillmatched.netlify.app/.">
                   <div className="portfolio_img">
-                    <img src="src/assets/images/SkillMatch.png" alt="" />
+                    <img src="/images/SkillMatch.png" alt="" />
                   </div>
 
                   <section className="portfolio_details">
@@ -267,7 +267,7 @@ function App() {
                   href="https://www.linkedin.com/in/dorota-szubert-333545239/"
                   className="contact_link"
                 >
-                  <img src="src/assets/images/linkedin.png" alt="" />
+                  <img src="/images/linkedin.png" alt="" />
                   <p>Linkedin</p>
                 </a>
               </li>
