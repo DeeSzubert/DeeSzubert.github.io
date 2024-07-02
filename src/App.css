@@ -72,7 +72,7 @@ img {
   min-height: 100vh;
   display: flex;
   align-items: center;
-
+  padding-left: 10vw;
   justify-content: left;
   margin: 0 auto;
 }
@@ -97,6 +97,11 @@ img {
 }
 .main_page_content > h2 {
   font-size: rem;
+}
+
+.main_page_content > ul > li {
+  font-size: 1rem;
+  padding: 3px 0;
 }
 
 .typed-out {
@@ -312,7 +317,7 @@ img {
   justify-content: center;
   display: flex;
   gap: 10px;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .contact_link {
@@ -330,6 +335,12 @@ img {
 
 .nav_bar {
   display: none;
+}
+
+.profile_photo,
+.profile_photo_about_me {
+  max-width: 20vw;
+  border-radius: 50px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -388,6 +399,10 @@ img {
     width: 70%;
   }
 
+  .about_me > div {
+    width: 20%;
+  }
+
   .about_me > section > p:not(:first-child) {
     padding-top: 20px;
   }
@@ -402,5 +417,19 @@ img {
 
   .hamburger_menu_list {
     display: none;
+  }
+
+  .contact {
+    width: 50%;
+    text-align: center;
+  }
+
+  .profile_photo_about_me {
+    width: 20vh;
+    border-radius: 10px;
+  }
+
+  .contact_details {
+    flex-direction: row;
   }
 }

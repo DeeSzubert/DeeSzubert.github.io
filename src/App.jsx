@@ -36,7 +36,7 @@ function App() {
           <nav className="nav_bar">
             <div className="main_navbar">
               <a href="#main_page" onClick={handleOnClickMainPage}>
-                main_page
+                main page
               </a>
               <a href="#about_me">about me</a>
               <a href="#portfolio">portfolio</a>
@@ -130,7 +130,16 @@ function App() {
 
         <div className="additional_page_container">
           <div className="about_me" id="about_me">
-            <h1>about me</h1>
+            <div>
+              {" "}
+              <img
+                className="profile_photo_about_me"
+                src="public/images/photo square.jpeg"
+                alt=""
+              />
+              <h1>about me</h1>
+            </div>
+
             <section>
               <p>
                 Hi there! I'm Dee, and my journey from graphic design to coding
@@ -249,16 +258,26 @@ function App() {
             </div>
           </div>
           <div className="contact" id="contact">
+            <img
+              className="profile_photo"
+              src="public/images/photo square.jpeg"
+              alt=""
+            />
             <div className="contact_info">
               <h1>contact</h1>
               <span>
                 If you'd like to reach out, discuss a potential project, or
-                simply say hi, please don't hesitate to contact me on<br></br>
-                <a href="mailto:pietryd@yahoo.com">pietryd@yahoo.com</a>, or :
+                simply say hi, please don't hesitate to contact me.
               </span>
             </div>
 
             <ul className="contact_details">
+              <li>
+                <a href="mailto:pietryd@yahoo.com" className="contact_link">
+                  <img src="/images/linkedin.png" alt="" />
+                  <p>pietryd@yahoo.com</p>
+                </a>
+              </li>
               <li>
                 <a
                   href="https://www.linkedin.com/in/dorota-szubert-333545239/"
