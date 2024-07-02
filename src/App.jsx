@@ -134,7 +134,7 @@ function App() {
               {" "}
               <img
                 className="profile_photo_about_me"
-                src="public/images/photo square.jpeg"
+                src="/images/photo_square.jpeg"
                 alt=""
               />
               <h1>about me</h1>
@@ -260,7 +260,7 @@ function App() {
           <div className="contact" id="contact">
             <img
               className="profile_photo"
-              src="public/images/photo square.jpeg"
+              src="/images/photo_square.jpeg"
               alt=""
             />
             <div className="contact_info">
