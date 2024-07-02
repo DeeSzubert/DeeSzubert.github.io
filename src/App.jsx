@@ -209,12 +209,12 @@ function App() {
                     <section className="portfolio_details">
                       <h1>NC news - back end project</h1>
                       <p>
-                        NC-News is a solo front-end project completed in one
-                        week during the Northcoders Software Development course.
-                        It is a web application where users can read and comment
-                        on articles, and explore various topics. Built using
-                        modern web development tools like React, Vite, Axios,
-                        HTML, and CSS, and hosted on Netlify.
+                        NC-News is a solo back-end project completed in one week
+                        during the Northcoders Software Development course.
+                        NCnews is a project that serves as a platform for
+                        reading news articles and commenting on them. Users can
+                        access articles based on topics they are interested in
+                        and engage with the community through comments.
                       </p>
                     </section>
                     <div className="technology_list">
@@ -274,7 +274,7 @@ function App() {
             <ul className="contact_details">
               <li>
                 <a href="mailto:pietryd@yahoo.com" className="contact_link">
-                  <img src="/images/linkedin.png" alt="" />
+                  <img src="/images/email.png" alt="" />
                   <p>pietryd@yahoo.com</p>
                 </a>
               </li>
