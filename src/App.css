@@ -145,6 +145,13 @@ img {
   margin: 0 auto;
 }
 
+.about_me > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+
 .about_me > section > p {
   padding-top: 20px;
 }
@@ -397,11 +404,6 @@ img {
 
   .about_me > div {
     width: 30%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1vw;
   }
 
   .about_me > section > p:not(:first-child) {
